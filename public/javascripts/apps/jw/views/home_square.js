@@ -1,8 +1,10 @@
 define([
-  "text!resources/templates/resume.html"
+  "text!resources/templates/square.html"
   ], function( Template ){
   
-  var Resume = Backbone.View.extend({
+  var HomeSquare = Backbone.View.extend({
+    
+    className: "homesquare",
     
     initialize: function(){
       this.render();
@@ -16,6 +18,6 @@ define([
     
   });
   
-  return Resume;
+  return HomeSquare;
   
 } );
