@@ -17,7 +17,7 @@ define([
         body = _.template( Template );
         this.$el.html( body );
         this.$el.append( this.home.el );
-        //this.$el.append( this.resume.el );
+        this.$el.append( this.resume.el );
       }
       
     });

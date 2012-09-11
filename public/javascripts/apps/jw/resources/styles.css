@@ -2,8 +2,7 @@ body{
   /*background-color: #0c24cf;*/
 }
 .home{
-  width: 600px;
-  margin: auto;
+  width: 600px; 
 }
 .homesignature{
   margin-left: 35px;
@@ -12,10 +11,22 @@ body{
   margin: 20px;
   width: 250px;
   height: 250px;
-  border: 1px solid black;
   float: right;
 }
 .clearfix{
   display:block;
   clear:both;
+}
+.page{
+	width: 618px;
+	height: 800px;
+}
+.outline{
+	border: 1px solid black;
+}
+.center{
+	margin: auto;
+}
+.resume{
+	width: 600px;
 }

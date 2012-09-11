@@ -4,7 +4,7 @@ define([
   
   var HomeSquare = Backbone.View.extend({
     
-    className: "homesquare",
+    className: "homesquare outline",
     
     initialize: function(){
       this.render();

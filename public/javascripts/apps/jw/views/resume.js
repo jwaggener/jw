@@ -4,6 +4,8 @@ define([
   
   var Resume = Backbone.View.extend({
     
+	className: "resume center clearfix",
+	
     initialize: function(){
       this.render();
     },

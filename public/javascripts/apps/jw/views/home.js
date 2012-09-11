@@ -5,7 +5,7 @@ define([
   
   var Home = Backbone.View.extend({
     
-    className: 'home',
+    className: 'home center',
     
     initialize: function(){
       this.home1 = new HomeSquare();
