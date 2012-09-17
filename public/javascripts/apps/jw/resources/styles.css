@@ -18,8 +18,12 @@ body{
   clear:both;
 }
 .page{
-	width: 618px;
-	height: 800px;
+	width: 100%;
+	min-height: 800px;
+	margin-bottom: 50px;
+}
+.padding75{
+  padding: 75px;
 }
 .outline{
 	border: 1px solid black;
@@ -28,5 +32,24 @@ body{
 	margin: auto;
 }
 .resume{
-	width: 600px;
+  margin-top: 50px;
+  width: 750px;
+}
+.resume li{
+  margin-left: 46px;
+}
+.marginBottom10{
+  margin-bottom: 10px;
+}
+.spacer36{
+  height: 36px;
+}
+.spacer24{
+  height: 24px;
+}
+.spacer16{
+  height: 16px;
+}
+.spacer10{
+  height: 10px;
 }
