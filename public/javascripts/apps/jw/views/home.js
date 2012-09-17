@@ -1,28 +1,21 @@
 define([
-  "views/home_square",
-  "text!resources/templates/home.html"
-  ], function( HomeSquare, Template ){
+  "text!resources/templates/home.html",
+  "i18n!nls/copy"
+  ], function( Template, Copy ){
   
   var Home = Backbone.View.extend({
     
     className: 'home center',
     
     initialize: function(){
-      this.home1 = new HomeSquare();
-      this.home2 = new HomeSquare();
-      this.home3 = new HomeSquare();
-      this.home4 = new HomeSquare();
+      console.log( "Copy.johnwaggener", Copy.johnwaggener );
       this.render();
     },
     
     render: function(){
       var body;
-      body = _.template( Template );
+      body = _.template( Template, { copy: Copy } );
       this.$el.html( body );
-      this.$el.find(".row1" ).append( this.home1.el );
-      this.$el.find(".row1" ).append( this.home2.el );
-      this.$el.find(".row2" ).append( this.home3.el );
-      this.$el.find(".row2" ).append( this.home4.el );
     }
     
   });

@@ -1,25 +1,59 @@
 body{
-  /*background-color: #0c24cf;*/
+  background: repeat #fff url( '/images/grid.png' );
 }
-.home{
-  width: 600px; 
+.bold{
+  font-weight: bold;
+}
+.nowrap{
+  white-space:nowrap;
+}
+.stripe-1-2-gray{
+  background: #fff repeat url( /images/stripe_1_2_gray_transparent.png );
+}
+.stripe-2-2-gray{
+  background: #fff repeat url( /images/stripe_2_2_gray.png );
+}
+.stripe-2-4-dark-gray{
+  background: #fff repeat url( /images/stripe_2_4_dark_gray.png );
+}
+.stripe-1-3-light-gray{
+  background: #fff repeat url( /images/stripe_1_3_light_gray.png );
+}
+.homebox{
+  margin: 2em 0 0 0;
+  padding: 1em;
+}
+.introbox{
+  margin: .8em 0 0 0;
+  padding: 1.25em 1em 3.25em 1em;
+}
+.contactbox{
+  margin: 0 auto;
+  padding: 0;
+  letter-spacing: .12em;
 }
 .homesignature{
-  margin-left: 35px;
+  font-size: 461.538462%;
+  color: #e8700f;
 }
-.homesquare{
-  margin: 20px;
-  width: 250px;
-  height: 250px;
-  float: right;
+.homecontact{
+  font-size: 205.384615%;
+}
+.homeintro{
+  font-size: 107.692308%;
+}
+.homelink{
+  font-size: 461.538462%;
+}
+.homelink a:hover{
+  background: #e8700f repeat url( /images/stripe_1_2_gray_transparent.png );
 }
 .clearfix{
   display:block;
   clear:both;
 }
 .page{
-	width: 618px;
-	height: 800px;
+  background-color: #fff;
 }
 .outline{
 	border: 1px solid black;
@@ -28,5 +62,4 @@ body{
 	margin: auto;
 }
 .resume{
-	width: 600px;
 }
